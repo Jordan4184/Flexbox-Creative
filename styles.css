@@ -36,6 +36,11 @@ html{
     justify-content: center;
     background-color: rgb(227, 221, 211);
 }
+
+.list-links a:hover {
+    color: rgb(218, 164, 184);
+}
+
 .list-links {
     align-content: center;
     justify-content: center;
@@ -99,6 +104,11 @@ html{
     text-shadow: 5px 5px #558ABB;
 }
 
+@media only screen and (max-width: 800px) {
+    #hdr1 h1 {
+        font-size: 6rem;
+    }
+}
 
 
                 /*Mission statement*
@@ -128,6 +138,22 @@ button {
     width: 130px;
     height: 70px;
     border-radius: 15px;
+    font-size: 20px;
+    font-family: Bubbles;
+}
+
+button:hover {
+    background-color: rgb(218, 164, 184);
+}
+
+@media only screen and (max-width: 800px) {
+    .mission-statement {
+        font-size: 2rem;
+    }
+
+    .mission-statement p {
+        font-size: 25px;
+    }
 }
 
                 /*Product Tiles*/
@@ -224,19 +250,10 @@ button {
     width: 350px;
 }
 
-/*Team member 1*/
-#team1 {
-
-}
-
-/*Team member 2*/
-#team2 {
-
-}
-
-/*Team member 3*/
-#team3 {
-
+@media only screen and (max-width: 800px) {
+    .team-section {
+        padding: 50px;
+    }
 }
 
                 /*Footer*/
@@ -246,4 +263,10 @@ button {
     justify-content: space-evenly;
     height: 50px;
     align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .footer {
+        font-size: 13px;
+    }
 }
