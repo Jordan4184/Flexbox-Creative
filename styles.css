@@ -7,11 +7,7 @@
 html{
     scroll-behavior: smooth;
     font-family: 'Bubbles', sans-serif;
-}
-
-.body {
-
-}      
+}    
      
 @font-face {
     font-family: 'Bubbles'; 
@@ -33,7 +29,7 @@ html{
 .header-links {
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: rgb(227, 221, 211);
 }
 
@@ -237,6 +233,8 @@ button:hover {
     text-align: center;
     font-size: 5rem;
     padding-top: 50px;
+    color: rgb(227, 221, 211);
+    text-shadow: 5px 5px #558ABB;
 }
 .team-section p {
     font-size: 0.75rem;
@@ -245,6 +243,9 @@ button:hover {
 
 .team-section h3 {
     text-align: center;
+    text-shadow: 5px 5px #558ABB;
+    color: rgb(227, 221, 211);
+    font-size: 35px;
 }
 .team-container img {
     width: 350px;
