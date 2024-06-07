@@ -1,26 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Bubbles', sans-serif;
+}
+
 .body {
-    background-color: rgb(51 51 51);
+
 }      
+     
+@font-face {
+    font-family: 'Bubbles'; 
+    src: url('./Resources/super_festival-font/Super\ Festival\ Personal\ Use.ttf');
+}
        
-       /*Nav Bar*/
+        /*Nav Bar*/
 
 /*Logo*/
 .navbar-container {
     display: flex;
     flex-direction: row;
+    position: fixed;
+    height: 70px;
+    width: 100%;
 }
-
-.logo {
-    width: 100px;
-    height: auto;
-}
-
 
 /*Nav links*/
 .header-links {
     display: flex;
     width: 100%;
-    justify-content: end;
+    justify-content: center;
+    background-color: rgb(227, 221, 211);
 }
 .list-links {
     align-content: center;
@@ -43,45 +57,193 @@
 }
 
                 /*Header*/
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-image: url('https://img.freepik.com/free-vector/abstract-curved-perspective-grid-lines-layout-design_1017-47105.jpg');
-    background-position: center;
-    background-size: cover;
-}
 
 /*Header image*/
-
-/*Container 1*/
-.header-container {
-    background-color: red;
-    width: 50%;
-    height: auto;
-}
-
-/*Container 2*/
-.header-container-2 {
-    background-color: blue;
+.header-image {
+    background-image: url('./Resources/Y2k_Background.jpeg');
+    background-position: center;
+    background-size: cover;
     
 }
+
+/*Container Box*/
+.encapsulating-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 90vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header {
+    width: 1000px;
+    height: auto;
+    text-align: center;
+    border-radius: 15px;
+    padding: 50px;
+}
+
+/*Container 1*/
+
+#hdr1 h1 {
+    font-size: 10rem;
+    color: rgb(227, 221, 211);
+    text-shadow: 5px 5px #558ABB;
+}
+
+#hdr1 h2 {
+    font-size: 3rem;
+    color: rgb(227, 221, 211);
+    padding-top: 30px;
+    font-style: italic;
+    text-shadow: 5px 5px #558ABB;
+}
+
 
 
                 /*Mission statement*
 /*Mission header*/
+.mission-statement {
+    height: 80vh;
+    width: auto;
+    text-align: center;
+    background-color: rgb(227, 221, 211);
+    border: 5px solid black;
+    font-size: 3rem;
+    padding-top: 100px;
+}
 
+.mission-statement p {
+    font-size: 2rem;
+    margin-top: 80px;
+}
+
+.mission-button {
+    padding-top: 60px;
+}
+
+button {
+    background-color: rgb(179, 146, 186);
+    color: white;
+    width: 130px;
+    height: 70px;
+    border-radius: 15px;
+}
 
                 /*Product Tiles*/
+
+.product-tiles {
+    background-image: url('./Resources/Y2k_Background.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+.tiles-container { 
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.tile {
+    width: 250px;
+    height: 400px;
+}
+
+.tile img {
+    width: auto;
+    height: 300px;
+    display: block;
+    margin: 10px auto;
+}
+
+.tile h3 {
+    text-align: center;
+}
+
+.tile p {
+    text-align: center;
+}
+
 /*Tile 1*/
+#box1 {
+ background-color: rgb(229, 200, 189);
+ border: 4px solid black;
+}
+
 /*Tile 2*/
+#box2 {
+    background-color: rgb(179, 146, 186);
+    border: 4px solid black;
+}
 /*Tile 3*/
+#box3 {
+    background-color: rgb(218, 164, 184);
+    border: 4px solid black;
+}
 /*Tile 4*/
+#box4 {
+    background-color: rgb(69, 87, 178);
+    border: 4px solid black;
+    color: rgb(229, 200, 189);
+}
+
 
                 /*Team*/ 
-/*Team header*/
-/*Team member 1*/
-/*Team member 2*/
-/*Team member 3*/
 
-/*Footer*/
+.team-section {
+    background-color: rgb(218, 164, 184);
+    height: auto;
+    padding-bottom: 175px;
+}
+
+.team-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/*Team header*/
+.team-section h2 {
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 50px;
+}
+.team-section p {
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.team-section h3 {
+    text-align: center;
+}
+.team-container img {
+    width: 350px;
+}
+
+/*Team member 1*/
+#team1 {
+
+}
+
+/*Team member 2*/
+#team2 {
+
+}
+
+/*Team member 3*/
+#team3 {
+
+}
+
+                /*Footer*/
+.footer {
+    background-color: rgb(227, 221, 211);
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+}
