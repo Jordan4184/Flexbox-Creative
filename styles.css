@@ -162,11 +162,11 @@ button:hover {
 
 .tiles-container { 
     display: flex;
-    height: 90vh;
+    height: auto;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-
+    padding: 40px 0px;
 }
 
 .tile {
@@ -238,6 +238,7 @@ button:hover {
 }
 .team-section p {
     font-size: 0.75rem;
+    text-wrap: wrap;
     text-align: center;
 }
 
