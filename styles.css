@@ -9,6 +9,8 @@ html{
     font-family: 'Bubbles', sans-serif;
 }    
      
+body {min-width: 600px;}
+
 @font-face {
     font-family: 'Bubbles'; 
     src: url('./Resources/super_festival-font/Super\ Festival\ Personal\ Use.ttf');
@@ -110,7 +112,7 @@ html{
                 /*Mission statement*
 /*Mission header*/
 .mission-statement {
-    height: 80vh;
+    height: 55vh;
     width: auto;
     text-align: center;
     background-color: rgb(227, 221, 211);
