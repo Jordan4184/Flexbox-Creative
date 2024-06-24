@@ -35,6 +35,10 @@ body {min-width: 600px;}
     background-color: rgb(227, 221, 211);
 }
 
+.header-links a {
+    margin: 0 40px;
+}
+
 .list-links a:hover {
     color: rgb(218, 164, 184);
 }
@@ -51,6 +55,7 @@ body {min-width: 600px;}
 .list-links .link {
     padding: 10px;
     font-size: 20px;
+    font-size: 2rem;
 }
 
 .list-links a {
