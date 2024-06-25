@@ -78,7 +78,7 @@ body {min-width: 600px;}
 .encapsulating-container {
     display: flex;
     justify-content: space-evenly;
-    height: 90vh;
+    height: 100vh;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -169,7 +169,7 @@ button:hover {
 
 .tiles-container { 
     display: flex;
-    height: auto;
+    height:60vh;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
