@@ -4,21 +4,20 @@
     padding: 0;
 }
 
-html{
+html {
     scroll-behavior: smooth;
     font-family: 'Bubbles', sans-serif;
 }    
-     
-body {min-width: 600px;}
+
+body {
+    min-width: 600px;
+}
 
 @font-face {
     font-family: 'Bubbles'; 
     src: url('./Resources/super_festival-font/Super\ Festival\ Personal\ Use.ttf');
 }
-       
-        /*Nav Bar*/
 
-/*Logo*/
 .navbar-container {
     display: flex;
     flex-direction: row;
@@ -27,7 +26,6 @@ body {min-width: 600px;}
     width: 100%;
 }
 
-/*Nav links*/
 .header-links {
     display: flex;
     width: 100%;
@@ -49,7 +47,6 @@ body {min-width: 600px;}
     list-style: none;
     padding: 10px;
     display: flex;
-    
 }
 
 .list-links .link {
@@ -64,17 +61,12 @@ body {min-width: 600px;}
     font-weight: bold;
 }
 
-                /*Header*/
-
-/*Header image*/
 .header-image {
     background-image: url('./Resources/Y2k_Background.jpeg');
     background-position: center;
     background-size: cover;
-    
 }
 
-/*Container Box*/
 .encapsulating-container {
     display: flex;
     justify-content: space-evenly;
@@ -90,8 +82,6 @@ body {min-width: 600px;}
     border-radius: 15px;
     padding: 50px;
 }
-
-/*Container 1*/
 
 #hdr1 h1 {
     font-size: 10rem;
@@ -113,9 +103,6 @@ body {min-width: 600px;}
     }
 }
 
-
-                /*Mission statement*
-/*Mission header*/
 .mission-statement {
     height: 55vh;
     width: auto;
@@ -159,8 +146,6 @@ button:hover {
     }
 }
 
-                /*Product Tiles*/
-
 .product-tiles {
     background-image: url('./Resources/Y2k_Background.jpeg');
     background-position: center;
@@ -196,31 +181,26 @@ button:hover {
     text-align: center;
 }
 
-/*Tile 1*/
 #box1 {
- background-color: rgb(229, 200, 189);
- border: 4px solid black;
+    background-color: rgb(229, 200, 189);
+    border: 4px solid black;
 }
 
-/*Tile 2*/
 #box2 {
     background-color: rgb(179, 146, 186);
     border: 4px solid black;
 }
-/*Tile 3*/
+
 #box3 {
     background-color: rgb(218, 164, 184);
     border: 4px solid black;
 }
-/*Tile 4*/
+
 #box4 {
     background-color: rgb(69, 87, 178);
     border: 4px solid black;
     color: rgb(229, 200, 189);
 }
-
-
-                /*Team*/ 
 
 .team-section {
     background-color: rgb(218, 164, 184);
@@ -235,7 +215,6 @@ button:hover {
     flex-wrap: wrap;
 }
 
-/*Team header*/
 .team-section h2 {
     text-align: center;
     font-size: 5rem;
@@ -243,8 +222,9 @@ button:hover {
     color: rgb(227, 221, 211);
     text-shadow: 5px 5px #558ABB;
 }
+
 .team-section p {
-    font-size: 0.75rem;
+    font-size: 1rem;
     text-wrap: wrap;
     text-align: center;
 }
@@ -255,23 +235,44 @@ button:hover {
     color: rgb(227, 221, 211);
     font-size: 35px;
 }
-.team-container img {
-    width: 350px;
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.team-member .image-box {
+    width: 150px;
+    height: 200px;
+    background-color: white; /* Placeholder for image */
+    border: 2px solid black;
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 800px) {
     .team-section {
         padding: 50px;
     }
+
+    .team-section h2 {
+        font-size: 3rem;
+    }
+
+    .team-section h3 {
+        font-size: 2rem;
+    }
 }
 
-                /*Footer*/
 .footer {
     background-color: rgb(227, 221, 211);
     display: flex;
     justify-content: space-evenly;
     height: 50px;
     align-items: center;
+    font-size: 1.5rem;
 }
 
 .footer a {
@@ -285,6 +286,6 @@ button:hover {
 
 @media only screen and (max-width: 800px) {
     .footer {
-        font-size: 13px;
+        font-size: 18px;
     }
 }
